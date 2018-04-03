@@ -1,0 +1,356 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+.lblHeader{
+	background-color: skyblue;
+	color: white;
+	font-size: 20px;
+}
+.blue{
+	color: blue;
+}
+.greencolor{
+	color: green;
+}
+.redcolor{
+	color: red;
+}
+.blueBackground{
+	background-color: powderblue;
+	color:white;
+	font-size: 18px;
+}
+.blueBold{
+	color: blue;
+	font-weight: bold;
+}
+.form-row{
+	margin: 6px 0 0 5px;
+	padding: 5px  0 3px 0;
+	border-bottom: 1px dotted #ddd;
+}
+
+
+
+
+
+.heading{
+	width:400px;
+ font-size: 20px;
+ margin-top:1px;
+ margin-left: 5px;
+ margin-bottom: 1px;
+ color:#003366;
+ font-family:  Arial, Helvetica, sans-serif;
+}
+
+#loginArea{
+  margin-left: 550px;
+  margin-top:100px;
+
+ width: 400px;
+ 
+}
+
+.border{
+  width: 500px;
+  height: 250px;
+  margin-left: 25px;
+  background-color: #F0F0F0;
+ }
+ 
+
+.headerSignin{
+ background-color:#003366;
+ color:white;
+ font-size: 17px;
+ font-family:  Engravers MT;
+ padding:3px;
+ height: 30px;
+
+}
+
+.headerSigninSmall{
+ background-color:#003366;
+ color:white;
+ font-size: 12px;
+ font-family:  Engravers MT;
+ padding:3px;
+ height: 20px;
+
+}
+
+.fieldsStyle{
+   margin-left: 30px;
+   padding-left: 10px;
+   
+}
+
+.errorFields {
+color:red;
+}
+
+.register{
+	font-size: 10px;
+	
+	cursor: pointer;
+  margin-top:7px;
+  color:blue;
+  margin-left:5px;
+  height:10px;
+ width: 100px;
+display: inline-block;
+ font:Times New Roman; 
+   
+
+}
+.hover{
+	cursor: pointer;
+}
+
+.btnStyle{
+    
+   font:arial; 
+  color:white;
+ 
+ padding:3px;
+ border-top: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #bbb;
+ border-left: 1px solid #ccc;
+ line-height: 1px;
+ text-align: center;
+ background-color: #003366 ;
+ cursor: pointer;
+ border-radius:4px;
+ width: 80px;
+ height: 28px;
+ 
+}
+.linkStyle{
+    
+   font:arial; 
+  color:blue;
+ margin-left: 35px;
+margin-top:0px;
+ padding:3px;
+ 
+
+ 
+}
+.mainPanel{
+ padding-left:200px;
+  width : 727px;
+  
+}
+
+.btnStyle:hover{
+    
+ border: 1px solid #003366 ;
+ cursor: pointer;
+  
+}
+.btnStyle:active{
+    border: 1px solid #aaa;
+  
+}
+
+.anchorStyle:hover{
+ font-size:14px;
+ 
+}
+.register:hover{
+ text-decoration:underline;
+ color:blue;
+}
+.linkStyle:hover{
+  text-color:blue;
+  cursor:pointer;
+}
+/** Creation client */
+
+.body{
+	height:500px;
+	width:825px;
+	margin-top: 20px;
+	margin-left: 150px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: lightsteelblue;
+	border-radius:4px;
+	border: 1px solid gray;
+}
+
+.name{
+	width:810px;
+	height:30px;
+	padding-left: 3px;
+	padding-top: 3px;
+	border:1px solid;
+	border: 1px dotted gray;
+	border-radius:4px;
+	
+}
+.inLine{
+	display: inline-block;
+	color:blue;
+	margin-left:2px;
+}
+
+.analysis{
+	width:300px;
+	height:50px;
+	margin-top:100px;
+	float:right;
+		
+}
+.button{
+	float:right;
+	width:50px;
+	height:25px;
+	border-radius:4px;
+	border: 1px solid gray;
+}
+.textbox{
+	
+}
+.information{
+	width:400px;
+	height:160px;
+	float:left;
+	margin-right:10px;
+	margin-top:1px;
+	border: 1px dotted gray;
+	position:relative;
+	border-radius:4px;
+	color:blue;
+}
+.client{
+	width:395px;
+	height:170px;
+	float:left;
+ 	position:relative;
+	margin-top: 10px;
+	border: 1px dotted gray;
+	background-color: white;
+	border-radius:4px;
+}
+.principle{
+	width:385px;
+	height:110px;
+	float:right;
+	margin-top:10px;
+	position:relative;
+}
+.listbox{
+	margin-top: 6px;
+	width:276px;
+	background-color: #F0F0F0 ;
+	color:blue;
+	position:relative;
+	border-radius:4px;
+	border: 1px solid gray;
+}
+.listbox1{
+	margin-top: 6px;
+	width:276px;
+	background-color: white;
+	color:blue;
+	position:relative;
+	border-radius:4px;
+	border: 1px solid gray;
+}
+.labelsmargin{
+	margin-top: 6px;
+		text-align: right;
+		width:110px;
+		padding-right:8px;
+		color:blue;
+	}
+
+.labeltop{
+	float:right;
+	width:400px;
+	margin-top: -16px;
+}
+
+/** search screen  */
+.vlayout{
+	margin-left:200px;
+	
+}
+.tabset{
+	border:1px;
+}
+
+
+/** search screen  */
+.vlayout{
+	margin-left:300px;
+	margin-top:100px
+	
+}
+.tabset{
+	border:1px;
+}
+.whitelayout{
+	margin-top:50px;
+	margin-left:10px;
+	float:left;
+}
+.lboxlayout{
+	margin-top:1px;
+	margin-left:1px;
+	float:left;
+}
+.btnlayout{
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+}
+.editCell{
+	color: blue !important;
+	cursor: pointer !important;
+}
+.whitebg{
+	background-color: white;
+}
+.white{
+	color: white;
+}
+.bluebg{
+	background-color: blue;
+}
+
+
